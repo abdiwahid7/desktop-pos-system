@@ -1,9 +1,9 @@
 import React from "react";
 
-const MakePaymentSupplierPage: React.FC = () => {
+const ReceiveCashSupplierPage: React.FC = () => {
   return (
     <div className="p-8">
-      <h1 className="text-2xl font-bold mb-4">Make Payment To Supplier</h1>
+      <h1 className="text-2xl font-bold mb-4">Receive Cash From Supplier</h1>
       <form className="space-y-4 max-w-md">
         <input
           className="w-full border px-3 py-2 rounded"
@@ -18,11 +18,11 @@ const MakePaymentSupplierPage: React.FC = () => {
           className="bg-blue-600 text-white px-4 py-2 rounded"
           type="submit"
         >
-          Pay
+          Receive
         </button>
       </form>
     </div>
   );
 };
 
-export default MakePaymentSupplierPage;
+export default ReceiveCashSupplierPage;
